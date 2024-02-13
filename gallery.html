@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .container h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+        }
+        .img-area{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap:10px;
+        }
+        .image{
+            flex-wrap: wrap;
+            object-fit: cover;
+            padding: 0 5px 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Flexbox image gallery</h1>
+        <div class="img-area">
+            <div class="image"><img src="pic1.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="pic2.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="pic3.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="pic4.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="flow1.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="flow2.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="flow3.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="flow4.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="sea.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="sea2.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="sea3.jpg" width="250px" height="200px" alt=""></div>
+            <div class="image"><img src="sea4.jpg" width="250px" height="200px" alt=""></div>
+            
+        </div>
+    </div>
+</body>
+</html>

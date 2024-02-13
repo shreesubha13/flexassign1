@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        body{
+            background-color: rgb(225, 213, 236);
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            flex:300px;
+            background-color: white;
+            box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15);
+            overflow: hidden;
+            border-radius: 8px;
+            max-width:300px;
+            padding:10px;
+        }
+        
+        h3{
+            color: rgba(126, 15, 230, 0.945);
+            
+        }
+        h2 {
+             text-align: center;
+             color:rgba(126, 15, 230, 0.945);
+        }
+        h6{
+            text-align: center;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap:20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Community Programs</h2>
+    <h6>Open to all pro-live classes on Youtube for free.</h6>
+    <div class="container">
+        <div class="card">
+            <div class="card-img">
+                <img src="dsa.jpg" alt="dsa">
+            </div>
+            <div class="card-body">
+                <h3>MasterClass Important of DSA in Modern Programming</h3>
+                <h5>Sankit Singh</h5>
+                <h4><b>Free</b></h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="full.jpg" alt="full">
+            </div>
+            <div class="card-body">
+                <h3>MasterClass of DataEngineering in Modern Programming</h3>
+                <h5>Sankit Singh</h5>
+                <h4><b>Free</b></h4>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="full1.jpg" alt="full1">
+            </div>
+            <div class="card-body">
+                <h3>MasterClass of Fullstack in Modern Programming</h3>
+                <h5>Sankit Singh</h5>
+                <h4><b>Free</b></h4>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>column</title>
+    <style>
+        body{
+            
+            font-family: 'Times New Roman', Times, serif;
+            color:white;
+            padding:50px 0;
+    
+        }
+        h2{
+            color:rgb(194, 5, 169);
+            text-align: center;
+        }
+        h4{
+            color:black;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+        p{
+            font-size:16px;
+            color:black;
+        }
+        .col-container{
+            max-width:2000px;
+            width:100vw;
+            margin:20px 20px;
+            display:flex;
+            gap: 5px;
+            background-color: rgba(0, 0, 0, 0.897);
+            border-radius: 20px;
+            padding:50px 0;
+            
+        }
+        .column1{
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+            background-color: blue;
+            margin:20px 20px 25px;
+            flex-basis: 33%;
+        }
+        .column2{
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+            background-color: rgb(211, 10, 218);
+            margin:20px 20px 25px;
+            flex-basis: 33%;
+        }
+        .column3{
+            box-shadow: 0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+            background-color:rgb(13, 172, 13);
+            margin:20px 20px 25px;
+            flex-basis: 33%;
+        }
+        .card{
+            padding:15px 25px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+<div class="col-container">
+    <div class="column1">
+        <div class="card">
+            <h4><b>HTML</b></h4>
+       <center><img src="html.png" width="70px" height="70px" alt="html"></center>
+        <p>HTML5 (Hypertext Markup Language 5) is a markup language used for structuring and presenting hypertext documents on the World Wide Web. It was the fifth and final[4] major HTML version that is now a retired World Wide Web Consortium (W3C) recommendation. The current specification is known as the HTML Living Standard. It is maintained by the Web Hypertext Application Technology Working Group (WHATWG), a consortium of the major browser vendors (Apple, Google, Mozilla, and Microsoft).
+
+            HTML5 was first released in a public-facing form on 22 January 2008,[2] with a major update and "W3C Recommendation" status in October 2014.[5][6] Its goals were to improve the language with support for the latest multimedia and other new features.</p>
+        </div>
+    </div>
+    <div class="column2">
+        <div class="card">
+            <h4><b>CSS</b></h4>
+        <center><img src="css.png" width="70px" height="70px" alt="css"></center>
+        <p>It is used with HTML to create and format content structure. It is responsible for colors, font properties, text alignments, background images, graphics, tables, etc. Various elements are positioned using fixed, absolute, and relative values.
+
+            To help build highly interactive online pages, CSS3 is highly commended as it provides more comprehensive options for designing. When a customer first views advertising products and services, the website, should be appealing and attractive, and this can be achieved with the help of CSS3.
+            
+            CSS3 allows the designer to create websites rich in content and low in code. This technology brings some exciting features that make the page look good, simple for the user to navigate, and functions flawless.</p>
+        </div>
+    </div>
+    <div class="column3">
+        <div class="card">
+            <h4><b>JAVASCRIPT</b></h4>
+        <center><img src="js.png" width="70px" height="70px" alt="js"></center>
+        <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.
+            What is even more exciting however is the functionality built on top of the client-side JavaScript language.
+        </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
